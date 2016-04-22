@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3752AD131CCA7108005BAEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752AD121CCA7108005BAEC0 /* main.m */; };
 		3752AD161CCA7108005BAEC0 /* EEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752AD151CCA7108005BAEC0 /* EEAppDelegate.m */; };
-		3752AD191CCA7108005BAEC0 /* EEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752AD181CCA7108005BAEC0 /* EEViewController.m */; };
+		3752AD191CCA7108005BAEC0 /* EELanchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752AD181CCA7108005BAEC0 /* EELanchViewController.m */; };
 		3752AD1C1CCA7108005BAEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3752AD1A1CCA7108005BAEC0 /* Main.storyboard */; };
 		3752AD1E1CCA7108005BAEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3752AD1D1CCA7108005BAEC0 /* Assets.xcassets */; };
 		3752AD211CCA7108005BAEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3752AD1F1CCA7108005BAEC0 /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		3752AD121CCA7108005BAEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3752AD141CCA7108005BAEC0 /* EEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEAppDelegate.h; sourceTree = "<group>"; };
 		3752AD151CCA7108005BAEC0 /* EEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEAppDelegate.m; sourceTree = "<group>"; };
-		3752AD171CCA7108005BAEC0 /* EEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEViewController.h; sourceTree = "<group>"; };
-		3752AD181CCA7108005BAEC0 /* EEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEViewController.m; sourceTree = "<group>"; };
+		3752AD171CCA7108005BAEC0 /* EELanchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EELanchViewController.h; sourceTree = "<group>"; };
+		3752AD181CCA7108005BAEC0 /* EELanchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EELanchViewController.m; sourceTree = "<group>"; };
 		3752AD1B1CCA7108005BAEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3752AD1D1CCA7108005BAEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3752AD201CCA7108005BAEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 			children = (
 				3752AD141CCA7108005BAEC0 /* EEAppDelegate.h */,
 				3752AD151CCA7108005BAEC0 /* EEAppDelegate.m */,
-				3752AD171CCA7108005BAEC0 /* EEViewController.h */,
-				3752AD181CCA7108005BAEC0 /* EEViewController.m */,
+				3752AD171CCA7108005BAEC0 /* EELanchViewController.h */,
+				3752AD181CCA7108005BAEC0 /* EELanchViewController.m */,
 				3752AD1A1CCA7108005BAEC0 /* Main.storyboard */,
 				3752AD1D1CCA7108005BAEC0 /* Assets.xcassets */,
 				3752AD1F1CCA7108005BAEC0 /* LaunchScreen.storyboard */,
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3752AD191CCA7108005BAEC0 /* EEViewController.m in Sources */,
+				3752AD191CCA7108005BAEC0 /* EELanchViewController.m in Sources */,
 				3752AD161CCA7108005BAEC0 /* EEAppDelegate.m in Sources */,
 				3752AD131CCA7108005BAEC0 /* main.m in Sources */,
 			);

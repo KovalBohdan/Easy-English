@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EEViewController : UIViewController
+@interface EELanchViewController : UIViewController
 
 
 @end
