@@ -6,13 +6,13 @@
 //  Copyright © 2016 OCA. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "EEAppDelegate.h"
 
-@interface AppDelegate ()
+@interface EEAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation EEAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

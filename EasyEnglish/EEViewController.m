@@ -6,13 +6,13 @@
 //  Copyright © 2016 OCA. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EEViewController.h"
 
-@interface ViewController ()
+@interface EEViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EEViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
