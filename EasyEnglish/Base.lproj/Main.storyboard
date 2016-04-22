@@ -18,9 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XWZ-dZ-cZL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XWZ-dZ-cZL" userLabel="background">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc4-mP-Ii4" userLabel="alphabet">
+                                <rect key="frame" x="20" y="75" width="120" height="150"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="30" maxX="20" maxY="0.0"/>
+                                <state key="normal" title="Alphabet"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saW-0c-2eO" userLabel="game">
+                                <rect key="frame" x="180" y="75" width="120" height="150"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="30" maxX="10" maxY="0.0"/>
+                                <state key="normal" title="Games"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyX-al-0rg" userLabel="songs">
+                                <rect key="frame" x="28" y="312" width="120" height="150"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="20" maxY="0.0"/>
+                                <state key="normal" title="Songs"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL8-4m-enw" userLabel="words">
+                                <rect key="frame" x="180" y="312" width="120" height="150"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="10" maxY="0.0"/>
+                                <state key="normal" title="Words"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -31,6 +51,12 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="alphabetButton" destination="wc4-mP-Ii4" id="clg-Dq-gui"/>
+                        <outlet property="gamesButton" destination="saW-0c-2eO" id="tgS-mX-6J5"/>
+                        <outlet property="songsButton" destination="qyX-al-0rg" id="DJ0-zb-elM"/>
+                        <outlet property="wordsButton" destination="PL8-4m-enw" id="QRo-JW-a3f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
